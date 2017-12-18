@@ -1,0 +1,441 @@
+<html>
+<head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Our Blogs</title>
+	<meta name="description" content="Hotellauncher">
+	<meta name="keywords" content="Hotellauncher">
+	<link rel="shortcut icon" href="assets/img/favicon.png">
+	<!--
+	<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.jpg">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.jpg">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.jpg">
+-->
+	<link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/lib/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/plugin/owlslider/css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+	
+	<style>
+		.morecontent span {
+			display: none;
+		}
+		.morelink {
+			display: block;
+		}
+	</style>
+<style>				.askemmy {					background: #fff url(chrome-extension://eapecjaokeepjhmnjbjlkfdnjdgnfmff/logo_housefly_new.png) no-repeat right 5px bottom 5px;					background-size: 45px;				}				.askemmy {				    z-index: 10000;				    position: fixed;				    display: block;				    width: 350px;				    height: 145px;				    background-color: white;				    border-radius: 2px;				    box-shadow: rgb(133, 133, 133) 0px 0px 25px 1px;				    margin: 0 auto;				    text-align: center;				    margin-left: 35%;				    margin-top: 10%;				}				.askemmy p#msg {				    font-size: 1.1em;				    font-weight: 600;				    margin-top: 31px;				    margin-bottom: 20px;				}				.askemmy .error-msg {					color: #FF5600;					padding-top: 10px;				}				.askemmy .success-msg {					color: green;					padding-top: 10px;				}				.askemmy input {				    padding: .5em .6em;				    display: inline-block;				    border: 1px solid #ccc;				    box-shadow: inset 0 1px 3px #ddd;				    border-radius: 4px;				    vertical-align: middle;				    -webkit-box-sizing: border-box;				    box-sizing: border-box;				    line-height: normal;				    -webkit-appearance: textfield;				    cursor: auto;				 }				 .askemmy input[type="submit"] {				    font-family: inherit;				    font-size: 100%;				    padding: .5em 1em;				    color: white;				    font-weight: 600;				    border: 1px solid #999;				    border: 0 rgba(0,0,0,0);				    background-color: rgba(31, 196, 255, .8);				    text-decoration: none;				    border-radius: 2px;				    display: inline-block;				    zoom: 1;				    line-height: normal;				    white-space: nowrap;				    vertical-align: middle;				    text-align: center;				    cursor: pointer;				    -webkit-user-drag: none;				    -webkit-user-select: none;				    user-select: none;				    -webkit-box-sizing: border-box;				    box-sizing: border-box;				 }				.askemmy .closebox {				    display: inline-block;				    height: 16px;				    width: 16px;				    position: absolute;				    right: 4px;				    top: 4px;				    cursor: pointer;				    background: url(chrome-extension://eapecjaokeepjhmnjbjlkfdnjdgnfmff/close_box.png)				}				.pop-up-report {					background: #fff url(chrome-extension://eapecjaokeepjhmnjbjlkfdnjdgnfmff/logo_housefly_new.png) no-repeat right 5px bottom 5px;					background-size: 45px;				}				.pop-up-report {				    z-index: 10000;				    position: fixed;				    display: block;				    width: 400px;				    height: 200px;				    background-color: white;				    border-radius: 2px;				    box-shadow: rgb(133, 133, 133) 0px 0px 25px 1px;				    margin: 0 auto;				    text-align: left;				    margin-left: 35%;				    margin-top: 10%;				    padding-left:10px;				    padding-bottom:10px;				    padding-top:10px;				    font-family: Arial,sans-serif;				    font-size:13px;				}				.pop-up-report textarea {					width:380px;					height:75px;				    padding: .5em .6em;				    display: inline-block;				    border: 1px solid #ccc;				    box-shadow: inset 0 1px 3px #ddd;				    border-radius: 4px;				    vertical-align: middle;				    -webkit-box-sizing: border-box;				    box-sizing: border-box;				    line-height: normal;				    -webkit-appearance: textarea;				    cursor: auto;				 }				 .pop-up-report input[type="button"] {				    font-family: Arial,sans-serif;				    font-size: 100%;				    padding: .5em 1em;				    color: white;				    font-weight: 600;				    border: 1px solid #999;				    border: 0 rgba(0,0,0,0);				    background-color: rgba(31, 196, 255, .8);				    text-decoration: none;				    border-radius: 2px;				    display: inline-block;				    zoom: 1;				    line-height: normal;				    white-space: nowrap;				    vertical-align: middle;				    text-align: center;				    cursor: pointer;				    -webkit-user-drag: none;				    -webkit-user-select: none;				    user-select: none;				    -webkit-box-sizing: border-box;				    box-sizing: border-box;				    margin-top:5px;				 }				 .pop-up-report select {				 	background-color:rgb(221,221,221);				 	border: 1px solid #DDD;    				border-radius: 4px 4px 4px 4px;    				height:25px;    				width:380px;    				padding: 3px;				 }				 .pop-up-report select {				 	align: center;				 	text-align: center;				 } 				.alert_message_mc {					background: #fff url(chrome-extension://eapecjaokeepjhmnjbjlkfdnjdgnfmff/logo_housefly_new.png) no-repeat right 5px bottom 5px;					background-size: 45px;				}				.alert_message_mc {				    z-index: 10000;				    position: fixed;				    display: block;				    width: 350px;				    height: 145px;				    background-color: white;				    border-radius: 2px;				    box-shadow: rgb(133, 133, 133) 0px 0px 25px 1px;				    margin: 0 auto;				    text-align: center;				    margin-left: 35%;				    margin-top: 10%;				}				.alert_message_mc p#msg {				    padding-top:60px;				}				.alert_message_mc p{				     margin: auto;				}				.alert_message_mc .error-msg {					color: #FF5600;					padding-top: 10px;				}				.alert_message_mc .success-msg {					color: green;					padding-top: 10px;				}				.alert_message_mc input {				    padding: .5em .6em;				    display: inline-block;				    border: 1px solid #ccc;				    box-shadow: inset 0 1px 3px #ddd;				    border-radius: 4px;				    vertical-align: middle;				    -webkit-box-sizing: border-box;				    box-sizing: border-box;				    line-height: normal;				    -webkit-appearance: textfield;				    cursor: auto;				 }				 .alert_message_mc input[type="submit"] {				    font-family: inherit;				    font-size: 100%;				    padding: .5em 1em;				    color: white;				    font-weight: 600;				    border: 1px solid #999;				    border: 0 rgba(0,0,0,0);				    background-color: rgba(31, 196, 255, .8);				    text-decoration: none;				    border-radius: 2px;				    display: inline-block;				    zoom: 1;				    line-height: normal;				    white-space: nowrap;				    vertical-align: middle;				    text-align: center;				    cursor: pointer;				    -webkit-user-drag: none;				    -webkit-user-select: none;				    user-select: none;				    -webkit-box-sizing: border-box;				    box-sizing: border-box;				 }				.alert_message_mc .closebox {				    display: inline-block;				    height: 16px;				    width: 16px;				    position: absolute;				    right: 4px;				    top: 4px;				    cursor: pointer;				    background: url(chrome-extension://eapecjaokeepjhmnjbjlkfdnjdgnfmff/close_box.png)				}				</style></head>
+
+
+
+<style>
+
+/* ----------------------------------------------------------------------------
+    Blog
+---------------------------------------------------------------------------- */
+
+.blog {
+    padding: 50px 0 100px;
+}
+
+.post {
+    position: relative;
+    margin-bottom: 70px;
+    padding-left: 100px;
+}
+
+.post .post-content {
+    zoom: 1;
+}
+
+.post .post-content:before,
+.post .post-content:after {
+    content: "";
+    display: table;
+}
+
+.post .post-content:after {
+    clear: both;
+}
+
+.post .post-content .post-image {
+    margin-bottom: 20px;
+}
+
+.post-date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 48px;
+    height: 39px;
+    padding: 4px 0 0;
+    font-size: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.post-date span {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.post-date .post-day {
+    margin-bottom: 2px;
+    font-size: 34px;
+    line-height: 33px;
+}
+
+.post-date .post-year {
+    padding-right: 0;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    right: 0;
+    font-weight: 300;
+    color: #8d8d8d;
+}
+
+.post-thumbnail {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.post-thumbnail a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.post-thumbnail a:after {
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: block;
+    content: "";
+    opacity: 0;
+}
+
+.post-thumbnail a:hover:after {
+    opacity: 0.2;
+}
+
+.post-thumbnail img {
+    -webkit-transition: -webkit-transform 2s ease;
+    -moz-transition: -moz-transform 2s ease;
+    -o-transition: -o-transform 2s ease;
+    transition: -webkit-transform 2s ease, -moz-transform 2s ease, -o-transform 2s ease, transform 2s ease;
+}
+
+.post-thumbnail:hover img {
+    -webkit-transform: scale(1.2) rotate(4deg);
+    -moz-transform: scale(1.2) rotate(4deg);
+    -o-transform: scale(1.2) rotate(4deg);
+    -ms-transform: scale(1.2) rotate(4deg);
+    transform: scale(1.2) rotate(4deg);
+}
+
+.post-title {
+    margin: -8px 0 11px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.post-title a:hover {
+    opacity: 0.7;
+}
+
+.post-meta {
+    margin: 0 0 12px;
+}
+
+.post-meta span {
+    vertical-align: top;
+    display: inline;
+    padding-right: 4px;
+    color: #8d8d8d;
+}
+
+.post-meta span>a {
+    color: inherit;
+}
+
+.post-meta span>i {
+    padding-right: 7px;
+}
+
+.post-meta .post-comments {
+    padding-left: 7px;
+}
+
+.post-text-content[class*="col-"] .post-meta .post-comments {
+    padding-left: 0;
+}
+
+.post-preview .more-link {
+    margin: 18px 0 0;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.post-tags-box {
+    position: relative;
+    margin: 25px 0 10px 0;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+}
+
+.post-tags-box i {
+    vertical-align: top;
+    display: inline-block;
+    line-height: 27px;
+}
+
+.post-tags-box .tags-links {
+    vertical-align: top;
+    display: inline-block;
+    padding-left: 15px;
+    line-height: 20px;
+}
+
+.post-tags-box a {
+    margin-right: 15px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.blog .sidebar {
+    padding: 0 15px 50px 50px;
+}
+
+.blog-widget {
+    margin-bottom: 25px;
+}
+
+.blog-widget>h6 {
+    margin-top: 0;
+    padding: 20px 0 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.blog-search .search-form {
+    position: relative;
+}
+
+.blog-search button {
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    margin-top: -11px;
+    padding: 6px;
+    font-size: 14px;
+    line-height: 1;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.blog-search button .fa {
+    -webkit-transition: color 0.2s ease;
+    -moz-transition: color 0.2s ease;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+.blog-search button:not(:hover):not(:active) .fa {
+    color: #606060;
+}
+
+.blog-categories .fa {
+    margin-right: 15px;
+    color: #000000;
+}
+
+.blog-categories>ul>li {
+    padding: 0 0 10px;
+}
+
+.blog-categories a:not(:active):not(:hover) {
+    color: #8d8d8d;
+}
+
+.blog-recent-posts .recent-posts-item {
+    zoom: 1;
+    margin-bottom: 13px;
+}
+
+.blog-recent-posts .recent-posts-item:before,
+.blog-recent-posts .recent-posts-item:after {
+    content: "";
+    display: table;
+}
+
+.blog-recent-posts .recent-posts-item:after {
+    clear: both;
+}
+
+.blog-recent-posts .recent-posts-item-image {
+    float: left;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.blog-recent-posts .recent-posts-item-image img {
+    width: 100%;
+}
+
+.blog-recent-posts .recent-posts-item-info {
+    float: left;
+    width: 240px;
+    padding: 6px 0 0 10px;
+}
+
+.blog-recent-posts .recent-posts-item-title,
+.blog-recent-posts .recent-posts-item-date {
+    display: inline-block;
+    width: 100%;
+    line-height: 20px;
+}
+
+.blog-recent-posts .recent-posts-item-title {
+    font-weight: 700;
+}
+
+.blog-recent-posts .recent-posts-item-date {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    color: #8d8d8d;
+}
+
+.recent-comments-item .fa {
+    margin-right: 5px;
+}
+
+.recent-comments-item {
+    margin-bottom: 15px;
+}
+
+.recent-comments-item-author {
+    color: #8d8d8d;
+}
+
+.social-networks-item {
+    margin: 15px 10px 0;
+}
+
+.social-networks-item .icon {
+    font-size: 30px;
+}
+
+.blog-tags .tags-list {
+    font-size: 0;
+}
+
+.blog-tags .tags-item {
+    margin: 0 5px 5px 0;
+    display: inline-block;
+}
+
+.blog-tags .tags-item a {
+    -webkit-transition: background 0.2s ease;
+    -moz-transition: background 0.2s ease;
+    -o-transition: background 0.2s ease;
+    transition: background 0.2s ease;
+    display: inline-block;
+    height: 22px;
+    padding: 0 10px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 22px;
+    vertical-align: top;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+</style>
+<body>
+<div ng-app="hlblog">
+	<div  ng-controller="blogCateListCtrl">
+		<div class="container blog">
+			<div class="col-md-9 col-lg-8 post-list">
+				<div ng-repeat="blogcate in ocw.blogDetail" >
+					<article class="post animate-repeat" ng-repeat="blogs in blogcate.columns | filter:searchText" >
+                        <span class="post-date base-clr-bg">
+                        <span class="post-day">{{blogs.serial}} </span>
+                        </span>
+						<div class="post-content" id="{{blogs.id}}">
+							<!--div class="post-thumbnail">
+                            <img src="{{blogs.url}}" class="img-responsive" alt="">
+                        </div-->
+							<div class="post-text-content" >
+								<h3 class="post-title"><a href="" rel="bookmark">{{blogs.title}}</a></h3>
+								<div class="post-meta"> <span class="post-author"><i class="fa fa-user"></i>{{blogs.author}}</span> <span class="post-cat"><i class="fa fa-folder-o"></i><a href="javascript:void(0)" rel="category tag">{{blogcate.name}}</a></span> </div>
+								<div class="post-preview">
+									<div class="post-desc"  ng-bind-html="blogs.desc"></div> 
+									<a href=""  class="btn btn-outline-color more-link"  title="Read More">READ MORE</a> 
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+			<div class="sidebar col-md-3 col-lg-4">
+				<div class="blog-widget blog-search">
+					<form class="search-form" method="get" action="/">
+						<input type="text" placeholder="Search..." name="s" value="" ng-model="searchText">
+						<button type="submit" value="Search" class="default"><i class="fa fa-search"></i></button>
+					</form>
+				</div>
+
+				<div class="blog-widget blog-recent-posts">
+					<h6>Recent Blogs</h6>
+
+					<ul class="recent-posts-list" ng-repeat="blogcate in ocw.blogDetail">
+						<li ng-repeat="blogs in blogcate.columns | limitTo:2" class="recent-posts-item">
+							<span class="recent-posts-item-image"><img ng-src="{{blogs.photo}}" alt=""></span>
+
+							<div class="recent-posts-item-info">
+								<a href="#{{blogs.id}}" class="recent-posts-item-title">{{blogs.title}}</a>
+							</div>
+						</li>
+
+
+					</ul>
+				</div>
+				<div class="blog-widget blog-categories">
+					<h6>Categories</h6>
+					<ul  ng-repeat="blogcate in ocw.blogDetail">
+						<li class="categories-item"><span class="fa fa-folder-o"></span><a href="#{{blogcate.id}}" title="Posts about creativity and ideas. Latest new trends and solutions. Famous artists and their works.">{{blogcate.name}}</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+  </body>
+  <html>
